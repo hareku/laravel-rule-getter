@@ -8,7 +8,7 @@ This package helps you to get validation rule so easily.
 
 First, pull in the package through Composer.
 
-Run `composer require hareku/laravel-rule`
+Run `composer require hareku/laravel-rule-getter`
 
 And then, include the service provider within `config/app.php`.
 
