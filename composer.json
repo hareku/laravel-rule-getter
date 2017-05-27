@@ -1,0 +1,34 @@
+{
+    "name": "hareku/laravel-rule-getter",
+    "description": "Laravel get valitation rules helper.",
+    "keywords": ["laravel", "validation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hareku",
+            "email": "hareku908@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/config": ">=5.4",
+        "illuminate/contracts": ">=5.4",
+        "illuminate/support": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hareku\\LaravelRule\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hareku\\LaravelRule\\Tests\\": "tests/"
+        }
+    }
+}
