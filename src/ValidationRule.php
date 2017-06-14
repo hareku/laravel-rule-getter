@@ -60,9 +60,9 @@ class ValidationRule implements ValidationRuleContract
      * Get a rule from config file.
      *
      * @param  string  $key
-     * @return string
+     * @return string|array
      */
-    protected function getFromKey(string $key): string
+    protected function getFromKey(string $key)
     {
         return $this->config->get($this->makeConfigKey($key));
     }
