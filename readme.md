@@ -2,7 +2,9 @@
 
 This package helps you to get validation rule so easily.
 
-*Support Laravel 5.4~*
+## Caution
+- *Support Laravel 5.4~*  
+- *Required php >=7.1*
 
 ## Installation
 

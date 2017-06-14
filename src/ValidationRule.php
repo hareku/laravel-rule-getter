@@ -32,11 +32,11 @@ class ValidationRule implements ValidationRuleContract
      * Get the specified rule.
      *
      * @param  string  $key
-     * @return string
+     * @return string|array
      *
      * @throws RuleNotFoundException
      */
-    public function get(string $key): string
+    public function get(string $key)
     {
         if (! $this->has($key)) {
             throw new RuleNotFoundException($key);
